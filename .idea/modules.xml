@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Weatherable_backend.iml" filepath="$PROJECT_DIR$/.idea/Weatherable_backend.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/weatherable.main.iml" filepath="$PROJECT_DIR$/.idea/modules/weatherable.main.iml" />
     </modules>
   </component>
 </project>
