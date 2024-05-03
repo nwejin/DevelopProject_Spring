@@ -30,6 +30,8 @@ public class CodiEntity {
     private Long shoesIndex;
     private Long accessoryIndex;
     private Long capIndex;
+    private String weatherinfo;
+    private Long temperinfo;
 
     @Column(columnDefinition="tinyint(1) default 1")
     private boolean active;
@@ -50,5 +52,6 @@ public class CodiEntity {
     @OneToMany(mappedBy = "codiIndex", cascade = CascadeType.ALL, orphanRemoval = true)
     @Builder.Default
     private List<CodiLikeEntity> codiLikes = new ArrayList<>();
+
 
 }

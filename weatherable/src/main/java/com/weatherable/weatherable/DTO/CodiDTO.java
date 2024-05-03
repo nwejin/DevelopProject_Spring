@@ -21,4 +21,7 @@ public class CodiDTO {
     private Long accessoryIndex;
     private Long capIndex;
     private LocalDateTime codiDate;
+
+    private String weatherinfo;
+    private Long temperinfo;
 }
